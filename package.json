@@ -4,13 +4,16 @@
   "description": "Curriculum for working",
   "main": "index.html",
   "scripts": {
-    "start":"npm run dev",
-    "dev":"lite-server",
+    "start": "npm run dev",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arnoldo Sanchez N.",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
