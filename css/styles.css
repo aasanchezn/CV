@@ -6,3 +6,13 @@
 
 .jumbotron-change {
   padding: 5rem 9rem; }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  padding: 0;
+  height: max-content;
+  background: #0a4058;
+  border: 0.2rem solid #ff0948;
+  border-radius: 0.5rem; }
