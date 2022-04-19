@@ -1,0 +1,21 @@
+
+//Color Variables
+$blue-dark: #0a4058;
+$pink-dark: #ff0948;
+$lt-gray: #ddd;
+
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
+.jumbotron{
+    @include zero-margin(9rem, 9rem);
+    background: url(../img/mathazul.png) $lt-gray repeat ;
+    text-align: center;
+}
+.jumbotron-change{
+    padding: 5rem 9rem;
+}
+

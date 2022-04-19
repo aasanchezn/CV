@@ -1,0 +1,8 @@
+.jumbotron {
+  margin: 0px auto;
+  padding: 9rem 9rem;
+  background: url(../img/mathazul.png) #ddd repeat;
+  text-align: center; }
+
+.jumbotron-change {
+  padding: 5rem 9rem; }
