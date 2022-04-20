@@ -29,7 +29,7 @@
   padding: 4rem 0 3rem 0;
   border-bottom: 0.2rem solid #ddd; }
 
-.card {
+.proyects .card {
   border: 0.3px solid #0a4058; }
 
 .btn-outline-danger {
@@ -46,6 +46,19 @@
   .title-section h2 {
     border-bottom: 2px solid #ff0948; }
 
+.progress {
+  height: 1.5rem;
+  font-size: 0.75em; }
+
+.html5 .progress-bar {
+  background-color: #ff4c1e; }
+
+.php .progress-bar {
+  background-color: #777bb3; }
+
+.git .progress-bar {
+  background-color: #dd4c35; }
+
 .footer {
   border-top: 0.25rem solid #ff0948;
   background: #0a4058;
@@ -53,3 +66,18 @@
 
 .sendMessage {
   background: #ff0948; }
+
+.glider-prev, .glider-next {
+  position: absolute;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  top: 45%;
+  cursor: pointer;
+  color: #0a4058; }
+
+.glider-prev {
+  left: -0.8rem; }
+
+.glider-next {
+  right: -0.8rem; }

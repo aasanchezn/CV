@@ -45,9 +45,12 @@ $lt-gray: #ddd;
     border-bottom: 0.2rem solid $lt-gray;
 }
 
-.card{
-    border: .3px solid $blue-dark;
+.proyects{
+    .card{
+        border: .3px solid $blue-dark;
+    }
 }
+
 .btn-outline-danger {
     color: $pink-dark;
     border-color: $pink-dark;
@@ -66,6 +69,31 @@ $lt-gray: #ddd;
     }
 }
 
+.progress{
+    height: 1.5rem;
+    font-size:0.75em;
+}
+
+.html5{
+    .progress-bar{
+        background-color: #ff4c1e;
+    }
+}
+
+.php{
+    .progress-bar{
+        background-color: #777bb3;
+    }
+}
+
+.git{
+    .progress-bar{
+        background-color: #dd4c35;
+    }
+}
+
+
+
 .footer{
     border-top: 0.25rem solid $pink-dark;
     background: $blue-dark;
@@ -75,3 +103,20 @@ $lt-gray: #ddd;
 .sendMessage{
     background: $pink-dark;
 }
+
+.glider-prev, .glider-next{
+    position:absolute;
+    display:block;
+    width:4rem;
+    height:4rem;
+    top:45%;
+    cursor:pointer;
+    color:$blue-dark;
+
+}
+.glider-prev{
+    left: -0.8rem;
+}
+.glider-next{
+    right:-0.8rem;   
+} 
