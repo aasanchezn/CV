@@ -16,3 +16,40 @@
   background: #0a4058;
   border: 0.2rem solid #ff0948;
   border-radius: 0.5rem; }
+
+.tab-content {
+  border-bottom: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6; }
+
+#nav-contribute-tab, #nav-education-tab {
+  font-size: 1.3rem; }
+
+.row-container {
+  padding: 4rem 0 3rem 0;
+  border-bottom: 0.2rem solid #ddd; }
+
+.card {
+  border: 0.3px solid #0a4058; }
+
+.btn-outline-danger {
+  color: #ff0948;
+  border-color: #ff0948; }
+
+.btn-outline-danger:hover {
+  background: #ff0948; }
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .title-section h2 {
+    border-bottom: 2px solid #ff0948; }
+
+.footer {
+  border-top: 0.25rem solid #ff0948;
+  background: #0a4058;
+  color: #d0d0d0; }
+
+.sendMessage {
+  background: #ff0948; }

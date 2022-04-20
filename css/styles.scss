@@ -29,3 +29,49 @@ $lt-gray: #ddd;
     border: 0.2rem solid $pink-dark;
     border-radius: 0.5rem;
 }
+
+.tab-content{
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+#nav-contribute-tab, #nav-education-tab{
+    font-size: 1.3rem;
+}
+
+.row-container{
+    padding: 4rem 0 3rem 0;
+    border-bottom: 0.2rem solid $lt-gray;
+}
+
+.card{
+    border: .3px solid $blue-dark;
+}
+.btn-outline-danger {
+    color: $pink-dark;
+    border-color: $pink-dark;
+}
+
+.btn-outline-danger:hover {
+    background: $pink-dark;
+}
+
+.title-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    h2{
+        border-bottom: 2px solid $pink-dark;
+    }
+}
+
+.footer{
+    border-top: 0.25rem solid $pink-dark;
+    background: $blue-dark;
+    color: #d0d0d0
+}
+
+.sendMessage{
+    background: $pink-dark;
+}
