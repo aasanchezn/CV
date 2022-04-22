@@ -103,6 +103,12 @@ $lt-gray: #ddd;
 .sendMessage{
     background: $pink-dark;
 }
+.sendMessage:hover{
+    color: $pink-dark;
+    background: #fff;
+    border: 2px solid $pink-dark;
+}
+
 
 .glider-prev, .glider-next{
     position:absolute;
@@ -120,3 +126,15 @@ $lt-gray: #ddd;
 .glider-next{
     right:-0.8rem;   
 } 
+
+.learnimgcont{
+    display:flex;
+    justify-content: center;
+    .learnimg{
+        height: 12rem;
+        border-radius:50%;
+    }
+}
+.log-inst{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}

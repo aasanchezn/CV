@@ -52,7 +52,36 @@
 
     <!-- MAIN -->
     <main>
-        
+      <!-- Modal send message -->
+  <div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message to arnoldo1098@gmail.com</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-1">
+              <label for="recipient-name" class="col-form-label">Name:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-1">
+              <label for="recipient-email" class="col-form-label">E-mail:</label>
+              <input type="email" class="form-control" id="recipient-email">
+            </div>
+            <div class="mb-2">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-danger" type="submit">SEND</button>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+  </div>        
 
         <!--About me  -->
         <div class="container">
@@ -66,7 +95,7 @@
                     <img src="./img/animearnoldo.png" class="img-fluid my-auto"alt="...">
                 </div>
 
-                <div class="col-md-8">
+                <div class="col-md-8 p-3">
                     <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link active" id="nav-contribute-tab" data-bs-toggle="tab" data-bs-target="#contribute" type="button" role="tab" aria-controls="nav-contribute" aria-selected="true">What can I contribute?</button>
@@ -399,6 +428,20 @@
               </div>
         </div>
         <!-- End Skills -->
+
+        <!-- Learning -->
+        <div class="container">
+          <div class="row-container" id="learning">
+              <div class="title-section" id="proyects">
+                <h2 class="text-center ">Learning</h2>
+              </div>
+              <div class="col-12 learnimgcont">
+                <img src="./img/bootstrap_plain_logo_icon_146619.png" class="learnimg" alt="...">
+                <img src="./img/react_original_logo_icon_146374.png"  class="learnimg"alt="...">       
+              </div>
+          </div>
+      </div>
+      <!-- End Learning -->
         
 
 
@@ -409,27 +452,23 @@
             <div class="row py-3">             
                 
                 <div class="col-12 mb-2" >
-                    <h5 class="text-center">Contact</h5>              
+                    <h3 class="text-center">Contact</h3>              
                 </div>
-                <div class="col-md-8 align-self-center"  >
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-instagram mx-3" href="http://google.com/+"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="btn btn-social-icon btn-facebook mx-3" href="http://www.facebook.com/profile.php?id="><i class="fa-brands fa-facebook-f"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin mx-3" href="https://www.linkedin.com/in/arnoldo-alberto-sanchez-negrete-569820199/"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a class="btn btn-social-icon btn-google mx-3" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        <i class="fa-solid fa-envelope"></i></a>
-                        <a href="mailto:arnoldo1098@gmail.com"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal">arnoldo1098@gmail.com</a>
-                    </div>
+                <div class="row">
+                <div class="col-md-6 align-self-center text-center p-2"  >
+                      <div class="btn-group">
+                        <a href="#" class="btn btn-lg btn-primary log-inst" aria-current="page"><i class="fa-brands fa-instagram"></i></a> 
+                        <a href="https://www.linkedin.com/in/arnoldo-alberto-sanchez-negrete-569820199/" target="_blank" class="btn btn-lg btn-primary"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-lg btn-danger"data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://github.com/aasanchezn" target="_blank" class="btn btn-lg btn-dark"><i class="fa-brands fa-github"></i></a>
+                      </div>
                 </div>
-                <div class="col-md-4 align-self-center"  >
-                  <div class="d-flex justify-content-center">
+                <div class="col-md-6 align-self-center text-center p-2">
                     <button type="button" class="btn btn-dark sendMessage"
                     data-bs-toggle="modal" data-bs-target="#exampleModal">Send Message</button>
-                  </div>
               </div>
-          </div>
+                </div>
+                </div>
           <div class="row justify-content-center">             
                 <div class="col-auto">
                     <p>© Copyright 2022 Arnoldo Sánchez</p>
