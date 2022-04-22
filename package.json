@@ -11,7 +11,7 @@
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run dev\"",
     "clean": "rimraf briefcaseArnoldo",
-    "copyfonts": "copyfiles -f node_modules/font-awesome/webfonts/* briefcaseArnoldo/webfonts",
+    "copyfonts": "copyfiles -f CV-Arnoldo Sanchez.pdf/* briefcaseArnoldo/",
     "imagemin": "imagemin img/* --out-dir=briefcaseArnoldo/img",
     "usemin": "usemin index.html -d briefcaseArnoldo --htmlmin -o briefcaseArnoldo/index.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"

@@ -1,7 +1,10 @@
+* {
+  font-family: 'Source Code Pro', monospace, sans-serif; }
+
 .jumbotron {
   margin: 0px auto;
   padding: 9rem 9rem;
-  background: url(../img/mathazul.png) #ddd repeat;
+  background: url(https://previews.123rf.com/images/zagory/zagory1701/zagory170100095/69597621-seamless-background-with-formulas-and-charts-on-the-topic-of-mathematics-and-education-light-marker-.jpg) #ddd;
   text-align: center; }
 
 .jumbotron-change {
